@@ -81,24 +81,24 @@ Monkey支持以下特性：
 
 package repl
 
-func Start( in io.Reader, out io.Writer) {
-    scanner: = bufio.NewScanner( in )
-    env: = object.NewEnvironment()
+func Start(in io.Reader, out io.Writer) {
+    scanner := bufio.NewScanner(in)
+    env := object.NewEnvironment()
     for {
         fmt.Fprintf(out, PROMPT)
-        scanned: = scanner.Scan()
+        scanned := scanner.Scan()
         if !scanned {
             return
         }
-        line: = scanner.Text()
-        l: = lexer.New(line)
-        p: = parser.New(l)
-        program: = p.ParseProgram()
+        line := scanner.Text()
+        l := lexer.New(line)
+        p := parser.New(l)
+        program := p.ParseProgram()
         if len(p.Errors()) != 0 {
             printParserErrors(out, p.Errors())
             continue
         }
-        evaluated: = evaluator.Eval(program, env)
+        evaluated := evaluator.Eval(program, env)
         if evaluated != nil {
             io.WriteString(out, evaluated.Inspect())
             io.WriteString(out, "\n")
@@ -125,11 +125,11 @@ Monkey完全按照我们期望的方式工作，并且它的实现既容易理�
 
 除了提供一个新的抽象层——从编译器传递到虚拟机的字节码——使得系统更加模块化之外，这种架构的主要吸引力在于其性能。字节码解释器速度很快。想要具体数字吗？在本书结束时，我们将拥有一个比第一本书中的前一版本快三倍的Monkey实现。
 
-```go
-$. / monkey - fibonacci - engine = eval
-engine = eval, result = 9227465, duration = 27.204277379 s
-$. / monkey - fibonacci - engine = vm
-engine = vm, result = 9227465, duration = 8.876222455 s
+```
+$ ./monkey-fibonacci -engine=eval
+engine=eval, result=9227465, duration=27.204277379s
+$ ./monkey-fibonacci -engine=vm
+engine=vm, result=9227465, duration=8.876222455s
 ```
 
 听起来不错！如果您准备好了开始编写代码，我们可以先确定您想要实现的具体项目或练习。
