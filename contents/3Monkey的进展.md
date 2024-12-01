@@ -76,7 +76,7 @@ Monkey支持以下特性：
 
 这一系列的转换——从字符串到记号，从记号到树，再到 `object.Object` ——在整个我们构建的Monkey REPL 主循环中从头到尾都是可见的:
 
-```javascript
+```go
 // repl/repl.go
 
 package repl
@@ -125,7 +125,7 @@ Monkey完全按照我们期望的方式工作，并且它的实现既容易理�
 
 除了提供一个新的抽象层——从编译器传递到虚拟机的字节码——使得系统更加模块化之外，这种架构的主要吸引力在于其性能。字节码解释器速度很快。想要具体数字吗？在本书结束时，我们将拥有一个比第一本书中的前一版本快三倍的Monkey实现。
 
-```JavaScript
+```go
 $. / monkey - fibonacci - engine = eval
 engine = eval, result = 9227465, duration = 27.204277379 s
 $. / monkey - fibonacci - engine = vm
