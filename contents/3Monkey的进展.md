@@ -134,7 +134,5 @@ engine = vm, result = 9227465, duration = 8.876222455 s
 
 听起来不错！如果您准备好了开始编写代码，我们可以先确定您想要实现的具体项目或练习。
 
-<div style="width: 100%; border: 1px solid #000; padding: 10px; display: flex; justify-content: space-between; ">
-  <a href="./2引言.md" style="flex: 1; text-align: left; ">⬅ 引言</a>
-  <a href="./4本书的使用.md" style="flex: 1; text-align: right; ">本书的使用 ➡</a>
-</div>
+|[⬅ 引言](./2引言.md)|[本书的使用 ➡](./4本书的使用.md)|
+| --- | --- |
