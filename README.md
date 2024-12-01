@@ -6,20 +6,19 @@
 
 ## 目录
 
-**[致谢](./contents/1致谢.md)**
-**[引言](./contents/2引言.md)**
+1. **[致谢](./contents/1致谢.md)**
+2. **[引言](./contents/2引言.md)**
+    - **[Monkey的进展](./contents/3Monkey的进展.md)**
+    - **[本书的使用](./contents/4本书的使用.md)**
 
-* **[Monkey的进展](./contents/3Monkey的进展.md)**
-* **[本书的使用](./contents/4本书的使用.md)**
+3. **[编译器和虚拟机](./contents/5编译器和虚拟机.md)**
+    - **[编译器](./contents/6编译器.md)**
+    - **[虚拟机和真实机](./contents/7虚拟机和真实机.md)**
+        - **[什么是虚拟机](./contents/8什么是虚拟机.md)**
+        - **[为什么构建一个？](./contents/9为什么构建一个.md)**
+        - **[字节码](./contents/10字节码.md)**
 
-**[1. 编译器和虚拟机](./contents/5编译器和虚拟机.md)**
-* **[编译器](./contents/6编译器.md)**
-* **[虚拟机和真实机](./contents/7虚拟机和真实机.md)**
-    - **[什么是虚拟机](./contents/8什么是虚拟机.md)**
-    - **[为什么构建一个？](./contents/9为什么构建一个.md)**
-    - **[字节码](./contents/10字节码.md)**
-
-**[2. Hello 字节码](./contents/11hello字节码.md)**
+4. **[Hello 字节码](./contents/11hello字节码.md)**
 
 ## 阅读以及PDF下载
 
