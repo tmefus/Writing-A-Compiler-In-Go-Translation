@@ -26,6 +26,21 @@
         - **[回到手头的任务](./contents/16回到手头的任务.md)**
         - **[开机](./contents/17开机.md)**
     - **[在栈上添加元素](./contents/18在栈上添加元素.md)**
+    - **[连接REPL](./contents/19连接REPL.md)**
+
+5. **[编译表达式](./contents/20编译表达式.md)**
+    - **[中缀表达式](./contents/21中缀表达式.md)**
+    - **[布尔值](./contents/22布尔值.md)**
+    - **[比较运算符](./contents/23比较运算符.md)**
+    - **[前缀表达式](./contents/24前缀表达式.md)**
+
+6. **[条件语句](./contents/25条件语句.md)**
+    - **[跳转](./contents/26跳转.md)**
+    - **[编译条件](./contents/27编译条件.md)**
+    - **[执行跳转](./contents/28执行跳转.md)**
+    - **[欢迎回来，Null！](./contents/29Null.md)**
+
+7. **[符号追踪](./contents/30符号追踪.md)**
 
 ## 阅读以及PDF下载
 
