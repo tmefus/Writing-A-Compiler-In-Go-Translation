@@ -46,7 +46,7 @@
 
 * [在github上阅读本书](contents/1致谢.md)
 * [英文版PDF下载](writing-a-compiler-in-go.pdf)
-* 同系列前本的翻译版 [Writing a Interpreter in Go](https://github.com/LixvYang/Writing-a-Interpreter-in-Go-Translation)
+* 同系列前本的翻译版 \[[github/LixvYang](https://github.com/LixvYang)\] [Writing a Interpreter in Go](https://github.com/LixvYang/Writing-a-Interpreter-in-Go-Translation)
 
 ## 免责声明
 
